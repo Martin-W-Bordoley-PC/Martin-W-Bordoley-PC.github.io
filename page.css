@@ -24,18 +24,30 @@ body {
   text-align: center;
 }
 
-.mpbc-section-attorney h4 {
+.mbpc-section-attorney h4 {
   text-align: center;
 }
 
-.mpbc-section-attorney img {
+.mbpc-section-attorney img {
   margin: 0 auto;
 }
 
-.mpbc-section-attorney p {
+.mbpc-section-attorney p {
   padding-top: 20px;
   padding-bottom: 20px;
   margin: 0 auto;
   text-align: justify;
   max-width: 400px;
+}
+
+.mbpc-section-areas-of-practice h4 {
+  text-align: center;
+}
+
+.mbpc-section-areas-of-practice {
+  text-align: justify;
+}
+
+.mbpc-section-areas-of-practice div.row {
+  padding-top: 20px;
 }
