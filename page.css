@@ -16,7 +16,8 @@ body {
 }
 
 .mbpc-section {
-  padding-top: 50px
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .mbpc-section-heading {
