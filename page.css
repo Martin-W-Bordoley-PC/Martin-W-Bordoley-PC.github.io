@@ -15,6 +15,10 @@ body {
   -o-background-size: cover;
 }
 
+.mbpc-section {
+  padding-top: 50px
+}
+
 .mbpc-section-heading {
   text-align: center;
 }
