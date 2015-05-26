@@ -48,10 +48,14 @@ body {
   text-align: justify;
 }
 
-.mbpc-section-areas-of-practice div.row {
+div.row {
   padding-top: 20px;
 }
 
 #contact-us {
   text-align: justify;
+}
+
+#contact-us img {
+  margin: 0 auto;
 }
