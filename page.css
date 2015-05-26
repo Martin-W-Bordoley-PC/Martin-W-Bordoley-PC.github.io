@@ -32,5 +32,9 @@ body {
 }
 
 .mpbc-section-attorney p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
   text-align: justify;
+  max-width: 400px;
 }
