@@ -1,0 +1,321 @@
+/*************************************************************
+page CSS
+Author(s): David Bordoley, Timothy Wilson
+Date: 12/13/2015
+*************************************************************/
+/*************************************************************
+* html
+*************************************************************/
+body {
+	padding-top: 50px;
+	/* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	color:rgb(60,60,60);
+        font-family: "Raleway",sans-serif;
+}
+
+html, body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: white;
+}
+
+.section {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+*:focus, *:active {
+	outline: none !important;
+}
+
+a, a:active, a:focus, button, button:focus, button:active, .btn, .btn:focus,
+	.btn:active:focus, .btn.active:focus, .btn.focus, .btn.focus:active,
+	.btn.active.focus {
+	outline: none;
+	outline: 0;
+}
+
+input::-moz-focus-inner {
+	border: 0;
+}
+
+section{
+	padding-top:50px;
+}
+
+/*************************************************************
+* Bootstrap Overrides
+*************************************************************/
+.navbar {
+	background: rgba(75, 75, 75, .9);
+	border: none;
+	box-shadow: none;
+       
+}
+
+.navbar a{
+	
+       
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus,
+	.navbar-default .navbar-nav>.active>a:hover {
+    background:	rgba(255,255,255,1);
+    color:#777 !important;
+	
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+        color:black !important;
+}
+
+
+
+.row {
+	margin: 0;
+	padding: 0;
+}
+.navbar-default .navbar-brand{
+     color:white;
+}
+
+.navbar-default .navbar-nav > li > a{
+     color:white;
+}
+/*************************************************************
+* Nav
+*************************************************************/
+
+
+/*************************************************************
+* Index
+*************************************************************/
+#attorneys, #contact-us {
+	background-color: rgb(255, 255, 255);
+}
+
+
+.section-heading{
+	border-bottom:2px solid rgb(60,60,60);
+	width:35%;
+	margin-left:40px;
+	border-radius:4px;
+}
+
+.mbpc-page-header {
+	height: 450px;
+	background: url('../img/header.png') center center no-repeat scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.mbpc-section {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+
+.mbpc-section-attorney h4 {
+	text-align: center;
+}
+
+.mbpc-section-attorney img {
+	margin: 0 auto;
+	border-radius: 10px;
+	width:50%;
+}
+
+.mbpc-section-attorney p {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 0 auto;
+	text-align: justify;
+	max-width: 400px;
+}
+
+.mbpc-section-areas-of-practice h4 {
+	text-align: center;
+}
+
+.mbpc-section-areas-of-practice {
+	text-align: justify;
+}
+
+div.row {
+	padding-top: 20px;
+}
+
+#contact-us {
+	text-align: justify;
+}
+
+#contact-us img {
+	margin: 0 auto;
+}
+
+
+/*******************************************************************************
+* Footer
+******************************************************************************/
+footer{
+	text-align:center;
+}
+
+.designedby{
+	color:rgb(100,100,100);
+	font-size:16px;
+}
+
+
+
+
+/* ============================================================
+  PRIMARY STRUCTURE
+============================================================ */
+
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+
+}
+section.module p {
+  margin-bottom: 40px;
+  
+  
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+section.module.parallax h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  line-height: 600px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+section.module.parallax-1 {
+  background-image: url("../img/header2.png") ;
+
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+  background-repeat:no-repeat;
+}
+section.module.parallax-2 {
+  background-image: url("../img/shutterstock_171897389dark.jpg");
+
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+section.module.parallax-3 {
+  background-image: url("../img/googleff.png");
+ 
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+}
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+  
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+  
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+   
+}
+#tag{
+   font-size: 38px 
+}
+#btn:hover{
+    color:rgb(75,75,75) !important;
+    background: rgb(255,255,255) !important;
+}
+
+@media all and (max-device-width: 640px){
+    #tag{font-size: 26px;}
+     
+}
+
+@media all and (max-device-width: 320px) {
+    #tag{font-size: 22px;}
+}
+
+#services a {
+    color:#3C3C3C;
+    width: 100%;
+    
+}
+
+#services a:hover {
+    color:gray;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#services .col-md-4{
+    margin-bottom: 15px;
+   min-width: 360px;
+}
+
+.details{
+    padding:5px;
+    margin-top:10px;
+    border:2px solid #555;
+    border-radius: 3px;
+}
+
+.imgService{
+    width:60px;
+    float:left;
+}
