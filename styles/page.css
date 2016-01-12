@@ -244,7 +244,7 @@ section.module.parallax-2 {
 	-o-background-size: cover;
 }
 section.module.parallax-3 {
-  background-image: url("../img/googleff.png");
+  background-image: url("../img/googleff.PNG");
  
     -webkit-background-size: 100%; 
     -moz-background-size: 100%; 
